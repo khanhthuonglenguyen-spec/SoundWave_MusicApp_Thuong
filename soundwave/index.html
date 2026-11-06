@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang chủ | SoundWave</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">🎵 SoundWave</a>
+      <ul>
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="search.html">Tìm kiếm</a></li>
+        <li><a href="artist-songs.html">Ca sĩ</a></li>
+        <li><a href="composer-songs.html">Nhạc sĩ</a></li>
+        <li><a href="album-songs.html">Album</a></li>
+        <li><a href="detail.html">Tin tức</a></li>
+        <li><a href="about.html">Về chúng tôi</a></li>
+        <li><a href="contact.html">Liên hệ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Âm nhạc chạm đến tâm hồn</h1>
+      <p>Khám phá hàng nghìn ca khúc Indie, Lo-Fi, EDM và Acoustic từ những nghệ sĩ độc lập.</p>
+      <a href="search.html" class="btn">Khám phá ngay</a>
+      <a href="#premium" class="btn btn-outline">Đăng ký Premium</a>
+    </section>
+
+    <section>
+      <h2>Bảng xếp hạng tuần</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Bài hát</th>
+            <th>Ca sĩ</th>
+            <th class="hide-mobile">Lượt nghe</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td>1</td>
+              <td><a href="song-detail.html">Nắng Sau Mưa</a></td>
+              <td><a href="artist-songs.html">Minh Anh</a></td>
+              <td class="hide-mobile">2.4M</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td><a href="song-detail.html">Phố Cũ</a></td>
+              <td><a href="artist-songs.html">Minh Anh</a></td>
+              <td class="hide-mobile">1.8M</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td><a href="song-detail.html">Chuyến Xe Đêm</a></td>
+              <td><a href="artist-songs.html">Lam Phong</a></td>
+              <td class="hide-mobile">1.5M</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td><a href="song-detail.html">Gió Mùa Thu</a></td>
+              <td><a href="artist-songs.html">Minh Anh</a></td>
+              <td class="hide-mobile">1.2M</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td><a href="song-detail.html">Lofi Cho Ngày Mưa</a></td>
+              <td><a href="artist-songs.html">Hạ Vy</a></td>
+              <td class="hide-mobile">980K</td>
+            </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Chuyên mục nổi bật</h2>
+      <div class="grid">
+        <a href="search.html" class="category c1">Indie</a>
+        <a href="search.html" class="category c2">Lo-Fi Học bài</a>
+        <a href="search.html" class="category c3">EDM</a>
+        <a href="search.html" class="category c4">Acoustic</a>
+      </div>
+    </section>
+
+    <section id="premium">
+      <h2>Gói Premium</h2>
+      <div class="pricing">
+        <div class="plan">
+          <h3>Miễn phí</h3>
+          <p class="price">0đ</p>
+          <ul>
+            <li>Nghe nhạc có quảng cáo</li>
+            <li>Chất lượng 128kbps</li>
+          </ul>
+          <a href="contact.html" class="btn btn-outline">Bắt đầu</a>
+        </div>
+        <div class="plan featured">
+          <h3>Premium</h3>
+          <p class="price">59.000đ/tháng</p>
+          <ul>
+            <li>Không quảng cáo</li>
+            <li>Chất lượng 320kbps</li>
+            <li>Nghe offline</li>
+          </ul>
+          <a href="contact.html" class="btn">Đăng ký</a>
+        </div>
+        <div class="plan">
+          <h3>Gia đình</h3>
+          <p class="price">99.000đ/tháng</p>
+          <ul>
+            <li>Tối đa 6 tài khoản</li>
+            <li>Toàn bộ quyền lợi Premium</li>
+          </ul>
+          <a href="contact.html" class="btn btn-outline">Đăng ký</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <ul>
+      <li><a href="about.html">Về chúng tôi</a></li>
+      <li><a href="contact.html">Liên hệ</a></li>
+      <li><a href="policy-terms.html">Chính sách &amp; Điều khoản</a></li>
+    </ul>
+    <p>&copy; 2026 SoundWave. Kết nối nghệ sĩ Indie với triệu tâm hồn yêu nhạc.</p>
+  </footer>
+
+  <div class="player">
+    <div class="player-song">
+      <img src="https://picsum.photos/seed/song1/100/100" alt="Ảnh bìa">
+      <div>
+        <a href="song-detail.html">Nắng Sau Mưa</a>
+        <p>Minh Anh</p>
+      </div>
+    </div>
+    <div class="player-controls">
+      <button>⏮</button>
+      <button>▶</button>
+      <button>⏭</button>
+    </div>
+    <div class="player-bar"><div></div></div>
+  </div>
+</body>
+</html>

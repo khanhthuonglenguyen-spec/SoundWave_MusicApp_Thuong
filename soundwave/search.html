@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tìm kiếm | SoundWave</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">🎵 SoundWave</a>
+      <ul>
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="search.html">Tìm kiếm</a></li>
+        <li><a href="artist-songs.html">Ca sĩ</a></li>
+        <li><a href="composer-songs.html">Nhạc sĩ</a></li>
+        <li><a href="album-songs.html">Album</a></li>
+        <li><a href="detail.html">Tin tức</a></li>
+        <li><a href="about.html">Về chúng tôi</a></li>
+        <li><a href="contact.html">Liên hệ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h1>Tìm kiếm bài hát</h1>
+      <form class="search-bar">
+        <input type="text" placeholder="Nhập tên bài hát, ca sĩ...">
+        <select>
+          <option>Tất cả thể loại</option>
+          <option>Indie</option>
+          <option>Lo-Fi</option>
+          <option>EDM</option>
+          <option>Acoustic</option>
+        </select>
+        <select>
+          <option>Năm phát hành</option>
+          <option>2026</option>
+          <option>2025</option>
+          <option>2024</option>
+        </select>
+        <select>
+          <option>Mới nhất</option>
+          <option>Nghe nhiều nhất</option>
+        </select>
+        <button type="submit" class="btn">Tìm kiếm</button>
+      </form>
+    </section>
+
+    <section>
+      <p class="result-count">Tìm thấy <strong>4</strong> kết quả</p>
+      <div class="grid">
+        <div class="card">
+          <img src="https://picsum.photos/seed/song1/300/300" alt="Nắng Sau Mưa">
+          <h3><a href="song-detail.html">Nắng Sau Mưa</a></h3>
+          <p><a href="artist-songs.html">Minh Anh</a> · 2.4M lượt nghe</p>
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/seed/song2/300/300" alt="Phố Cũ">
+          <h3><a href="song-detail.html">Phố Cũ</a></h3>
+          <p><a href="artist-songs.html">Minh Anh</a> · 1.8M lượt nghe</p>
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/seed/song3/300/300" alt="Chuyến Xe Đêm">
+          <h3><a href="song-detail.html">Chuyến Xe Đêm</a></h3>
+          <p><a href="artist-songs.html">Lam Phong</a> · 1.5M lượt nghe</p>
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/seed/song4/300/300" alt="Gió Mùa Thu">
+          <h3><a href="song-detail.html">Gió Mùa Thu</a></h3>
+          <p><a href="artist-songs.html">Minh Anh</a> · 1.2M lượt nghe</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <ul>
+      <li><a href="about.html">Về chúng tôi</a></li>
+      <li><a href="contact.html">Liên hệ</a></li>
+      <li><a href="policy-terms.html">Chính sách &amp; Điều khoản</a></li>
+    </ul>
+    <p>&copy; 2026 SoundWave. Kết nối nghệ sĩ Indie với triệu tâm hồn yêu nhạc.</p>
+  </footer>
+
+  <div class="player">
+    <div class="player-song">
+      <img src="https://picsum.photos/seed/song1/100/100" alt="Ảnh bìa">
+      <div>
+        <a href="song-detail.html">Nắng Sau Mưa</a>
+        <p>Minh Anh</p>
+      </div>
+    </div>
+    <div class="player-controls">
+      <button>⏮</button>
+      <button>▶</button>
+      <button>⏭</button>
+    </div>
+    <div class="player-bar"><div></div></div>
+  </div>
+</body>
+</html>

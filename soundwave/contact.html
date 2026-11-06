@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liên hệ | SoundWave</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">🎵 SoundWave</a>
+      <ul>
+        <li><a href="index.html">Trang chủ</a></li>
+        <li><a href="search.html">Tìm kiếm</a></li>
+        <li><a href="artist-songs.html">Ca sĩ</a></li>
+        <li><a href="composer-songs.html">Nhạc sĩ</a></li>
+        <li><a href="album-songs.html">Album</a></li>
+        <li><a href="detail.html">Tin tức</a></li>
+        <li><a href="about.html">Về chúng tôi</a></li>
+        <li><a href="contact.html">Liên hệ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="two-col">
+      <section>
+        <h1>Liên hệ &amp; Đóng góp</h1>
+        <p>Bạn là nghệ sĩ muốn hợp tác hoặc có góp ý cho SoundWave? Hãy gửi tin nhắn cho chúng tôi.</p>
+        <form>
+          <label for="name">Họ tên</label>
+          <input type="text" id="name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" required>
+
+          <label for="type">Loại yêu cầu</label>
+          <select id="type">
+            <option>Nghệ sĩ hợp tác</option>
+            <option>Góp ý</option>
+            <option>Báo lỗi</option>
+          </select>
+
+          <label for="message">Nội dung</label>
+          <textarea id="message" rows="5" required></textarea>
+
+          <br><br>
+          <button type="submit" class="btn">Gửi</button>
+        </form>
+      </section>
+
+      <aside>
+        <h2>Thông tin hỗ trợ</h2>
+        <p>Hotline: 1900 1234</p>
+        <p>Email: support@soundwave.vn</p>
+        <p>Địa chỉ: Quận 1, TP. Hồ Chí Minh</p>
+        <br>
+        <div class="map">
+          <iframe src="https://www.google.com/maps?q=Quan+1+Ho+Chi+Minh&amp;output=embed" title="Bản đồ trụ sở SoundWave"></iframe>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <ul>
+      <li><a href="about.html">Về chúng tôi</a></li>
+      <li><a href="contact.html">Liên hệ</a></li>
+      <li><a href="policy-terms.html">Chính sách &amp; Điều khoản</a></li>
+    </ul>
+    <p>&copy; 2026 SoundWave. Kết nối nghệ sĩ Indie với triệu tâm hồn yêu nhạc.</p>
+  </footer>
+
+  <div class="player">
+    <div class="player-song">
+      <img src="https://picsum.photos/seed/song1/100/100" alt="Ảnh bìa">
+      <div>
+        <a href="song-detail.html">Nắng Sau Mưa</a>
+        <p>Minh Anh</p>
+      </div>
+    </div>
+    <div class="player-controls">
+      <button>⏮</button>
+      <button>▶</button>
+      <button>⏭</button>
+    </div>
+    <div class="player-bar"><div></div></div>
+  </div>
+</body>
+</html>
